@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- Error #1: root element is "Hotel" instead of "Hotels" -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel> <!-- Error #2: missing required Rating attribute -->
+    <Name>Marriott</Name>
+    <Phone>602-555-1111</Phone>
+    <Address NearstAirport="Phoenix Airport">
+      <Number>200</Number>
+      <Street>Central Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Hyatt</Name>
+    <!-- Error #3: missing the Phone element(s) -->
+    <Address NearstAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.7">
+    <Name>Hampton</Name>
+    <Phone>480-555-3333</Phone>
+    <Address> <!-- Error #4: this <Address> tag is never closed -->
+      <Number>101</Number>
+      <Street>S Rural Rd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Hilton</Name>
+    <Name>DoubleName</Name> <!-- Error #5: two <Name> elements -->
+    <Phone>480-555-4444</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85258</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
