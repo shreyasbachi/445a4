@@ -14,50 +14,51 @@
   </Hotel>
 
   <Hotel> <!-- Error #2: missing required Rating attribute -->
-    <Name>Marriott</Name>
-    <Phone>602-555-1111</Phone>
-    <Address NearstAirport="Phoenix Airport">
-      <Number>200</Number>
-      <Street>Central Ave</Street>
+    <Name>JW Marriott Phoenix Desert Ridge Resort</Name>
+    <Phone>480-293-5000</Phone>
+    <Address NearstAirport="Deer Valley Airport">
+      <Number>500</Number>
+      <Street>E Marriott Dr</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85004</Zip>
+      <Zip>85054</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.0">
-    <Name>Hyatt</Name>
+  <Hotel Rating="4.4">
+    <Name>Hyatt Regency Phoenix</Name>
     <!-- Error #3: missing the Phone element(s) -->
     <Address NearstAirport="Sky Harbor">
       <Number>122</Number>
       <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85003</Zip>
+      <Zip>85004</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.7">
-    <Name>Hampton</Name>
-    <Phone>480-555-3333</Phone>
+  <Hotel Rating="4.3">
+    <Name>Hampton Inn</Name>
+    <Phone>602-710-1240</Phone>
     <Address> <!-- Error #4: this <Address> tag is never closed -->
-      <Number>101</Number>
-      <Street>S Rural Rd</Street>
-      <City>Tempe</City>
+    <Address NearstAirport="Sky Harbor">
+      <Number>77</Number>
+      <Street>E Polk St</Street>
+      <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85282</Zip>
+      <Zip>85004</Zip>
   </Hotel>
 
-  <Hotel Rating="4.1">
-    <Name>Hilton</Name>
-    <Name>DoubleName</Name> <!-- Error #5: two <Name> elements -->
-    <Phone>480-555-4444</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>7500</Number>
-      <Street>E Doubletree Ranch Rd</Street>
-      <City>Scottsdale</City>
+  <Hotel Rating="4.5">
+    <Name>Omni Tempe Hotel</Name>
+    <Name>Name</Name> <!-- Error #4: Double name - name tag is repeated -->
+    <Phone>602-794-8600</Phone>
+    <Address>
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
       <State>AZ</State>
-      <Zip>85258</Zip>
+      <Zip>85281</Zip>
     </Address>
   </Hotel>
 </Hotel>

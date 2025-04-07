@@ -13,36 +13,60 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.5">
-    <Name>Marriott</Name>
-    <Phone>602-555-1111</Phone>
-    <Address NearstAirport="Phoenix Airport">
-      <Number>200</Number>
-      <Street>Central Ave</Street>
+  <Hotel Rating="4.6">
+    <Name>JW Marriott Phoenix Desert Ridge Resort</Name>
+    <Phone>480-293-5000</Phone>
+    <Address NearstAirport="Deer Valley">
+      <Number>500</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Hyatt Regency Phoenix</Name>
+    <Phone>602-252-1234</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.0">
-    <Name>Hyatt</Name>
-    <Phone>602-555-2222</Phone>
-    <Phone>602-555-2223</Phone>
+  <Hotel Rating="4.3">
+    <Name>Hampton Inn</Name>
+    <Phone>602-710-1240</Phone>
+    <Address>
     <Address NearstAirport="Sky Harbor">
-      <Number>122</Number>
-      <Street>N 2nd St</Street>
+      <Number>77</Number>
+      <Street>E Polk St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85003</Zip>
+      <Zip>85004</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.7">
-    <Name>Hampton</Name>
-    <Phone>480-555-3333</Phone>
+  <Hotel Rating="3.9">
+    <Name>TownePlace Suites</Name>
+    <Phone>480-345-7889</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85283</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Embassy Suites</Name>
+    <Phone>480-897-7444</Phone>
     <Address>
-      <Number>101</Number>
+      <Number>4400</Number>
       <Street>S Rural Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
@@ -50,76 +74,51 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1">
-    <Name>Hilton</Name>
-    <Phone>480-555-4444</Phone>
-    <Phone>480-555-4445</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>7500</Number>
-      <Street>E Doubletree Ranch Rd</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85258</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.4">
-    <Name>Embassy Suites</Name>
-    <Phone>602-555-5555</Phone>
-    <Address>
-      <Number>4415</Number>
-      <Street>E Paradise Village Pkwy S</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85032</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.9">
+  <Hotel Rating="4.7">
     <Name>Four Seasons</Name>
     <Phone>480-555-6666</Phone>
     <Address NearstAirport="Scottsdale Airport">
-      <Number>100</Number>
-      <Street>Four Seasons Way</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85255</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="3.3">
-    <Name>Best Western</Name>
-    <Phone>480-555-7777</Phone>
-    <Address>
-      <Number>700</Number>
-      <Street>S Mill Ave</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="3.8">
-    <Name>La Quinta</Name>
-    <Phone>480-555-8888</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>911</Number>
-      <Street>N Scottsdale Rd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="5.0">
-    <Name>Ritz Carlton</Name>
-    <Phone>480-555-9999</Phone>
-    <Address>
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
       <State>AZ</State>
       <Zip>85262</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Four Points by Sheraton</Name>
+    <Phone>480-579-2100</Phone>
+    <Address NearstAirport="Mesa Gateway">
+    <Address>
+      <Number>6850</Number>
+      <Street>E Williams Field Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85212</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.2">
+    <Name>Crowne Plaza Resort</Name>
+    <Phone>480-555-8888</Phone>
+        <Number>1</Number>
+      <Street>One N San Marcos Pl</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85225</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Omni Tempe Hotel</Name>
+    <Phone>602-794-8600</Phone>
+    <Address>
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
     </Address>
   </Hotel>
 </Hotels>
