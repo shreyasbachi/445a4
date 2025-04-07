@@ -40,7 +40,7 @@
   <Hotel Rating="4.3">
     <Name>Hampton Inn</Name>
     <Phone>602-710-1240</Phone>
-    <Address> <!-- Error #4: this <Address> tag is never closed -->
+    <!-- Error #4: this <Address> tag is never closed -->
     <Address NearstAirport="Sky Harbor">
       <Number>77</Number>
       <Street>E Polk St</Street>
@@ -53,7 +53,7 @@
     <Name>Omni Tempe Hotel</Name>
     <Name>Name</Name> <!-- Error #4: Double name - name tag is repeated -->
     <Phone>602-794-8600</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>7</Number>
       <Street>E University Dr</Street>
       <City>Tempe</City>
